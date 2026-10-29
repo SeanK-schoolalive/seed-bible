@@ -1,0 +1,30 @@
+{
+  "id": "bible-ai-coder",
+  "permissions": ["reading:position"],
+  "optionalPermissions": ["clipboard:write"],
+  "network": ["localhost", "127.0.0.1", "localhost:11434"],
+  "settings": {
+    "ollamaBaseUrl": {
+      "type": "string",
+      "default": "http://localhost:11434"
+    },
+    "ollamaModel": {
+      "type": "string",
+      "default": "llama3.1"
+    }
+  },
+  "translations": {
+    "en": {
+      "title": "Bible AI Coder",
+      "description": "Ask AI to explain, summarize, and code from Scripture.",
+      "tool-label": "Bible AI Coder",
+      "pane-title": "Bible AI Coder",
+      "placeholder": "Ask for a summary, application, explanation, or coding idea from this passage...",
+      "generate": "Generate insight",
+      "copy": "Copy answer",
+      "reference": "Reference",
+      "context": "Context",
+      "empty-state": "Select a Bible passage and ask a question."
+    }
+  }
+}
