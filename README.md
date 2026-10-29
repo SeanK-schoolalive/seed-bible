@@ -1,4 +1,4 @@
-# 📖 Seed Bible
+# 📖 Seed Bible with coder
 
 Seed Bible is a Bible reading and study app made for reading together. You can read alongside friends, join live shared reading sessions, and see content from churches and ministries right beside the chapter you're reading.
 
